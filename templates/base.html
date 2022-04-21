@@ -14,6 +14,35 @@
     <title>Ground Bakery</title>
 </head>
 <body>
+<header>
+    <!-- top navigation-->
+    <nav class="nav-extended amber">
+        <div class="nav-wrapper">
+          <a href="#!" class="brand-logo amber text-darken-4">Ground</a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="fas fa-bars"></i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Sites</a></li>
+            <li><a href="#">Log In</a></li>
+            <li><a href="#">Log out</a></li>
+            <li><a href="#">Manage bookings</a></li>
+            <li><a href="#">New booking</a></li>
+            <li><a href="#">Profile</a></li>
+          </ul>
+        </div>
+      </nav>
+    
+      <!-- mobile navigation-->
+      <ul class="sidenav" id="mobile-demo">
+        <li><h4 class="center-align amber text-darken-4">Ground</h4></li>
+        <li><a href="sass.html">Sass</a></li>
+        <li><a href="badges.html">Components</a></li>
+        <li><a href="collapsible.html">Javascript</a></li>
+        <li><a href="mobile.html">Mobile</a></li>
+      </ul>
+
+</header>
+
     <H1>Ground Bakery</H1>
     {% block content %}
     {% endblock %}
